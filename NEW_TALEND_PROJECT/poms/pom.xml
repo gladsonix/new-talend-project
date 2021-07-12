@@ -181,6 +181,10 @@
     <module>jobs/process/t01_Compo/Misc/tforeach_0.1</module>
     <module>jobs/process/t01_Compo/Misc/tmsgbox_0.1</module>
     <module>jobs/process/t01_Compo/Orchestration/twaitforsocket_0.1</module>
+    <module>jobs/process/Examples/sayhello_0.1</module>
+    <module>jobs/process/Examples/getweather_0.1</module>
+    <module>jobs/process/Examples/video_viewers_watch_results_log_filter_0.1</module>
+    <module>jobs/joblets/jcloudlog_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
