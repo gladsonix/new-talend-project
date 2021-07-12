@@ -244,6 +244,13 @@
     <module>jobs/process/standardization_examples/address/a2_normalizeaddress_0.1</module>
     <module>jobs/process/standardization_examples/address/address_standardization_0.1</module>
     <module>jobs/process/TUTO62/Prerequisite/load_customer_data_0.1</module>
+    <module>jobs/process/CRMService/CRMService/getCRMInformation/crmservice_getcrminformation_0.1</module>
+    <module>jobs/process/CRMService/CRMService/getCRMStatus/crmservice_getcrmstatus_0.1</module>
+    <module>jobs/process/CRMService/CRMService/updateCRMStatus/crmservice_updatecrmstatus_0.1</module>
+    <module>jobs/process/DemoService/DemoServicePortType/DemoServiceOperation/demoserviceporttype_demoserviceoperation_0.1</module>
+    <module>jobs/process/ReservationService/ReservationService/getAvailableCars/reservationservice_getavailablecars_0.1</module>
+    <module>jobs/process/ReservationService/ReservationService/getConfirmationOfReservation/reservationservice_getconfirmationofreservation_0.1</module>
+    <module>jobs/process/ReservationService/ReservationService/submitCarReservation/reservationservice_submitcarreservation_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
