@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataquality.indicators.definition:IndicatorDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.indicators.definition="http://dataquality.indicators.definition" xmi:id="_-hzp8JSOEd-TE5ti6XNR2Q" name="Maximal Length With Blank and Null" label="Maximal Length With Blank and Null">
-  <taggedValue xmi:id="_-hzp8ZSOEd-TE5ti6XNR2Q" tag="Description" value="computes the maximal length of a text field."/>
+  <taggedValue xmi:id="_-hzp8ZSOEd-TE5ti6XNR2Q" tag="Description" value="computes the maximal length of a text field, counting null and blank data as zero length values."/>
   <taggedValue xmi:id="_-hzp8pSOEd-TE5ti6XNR2Q" tag="Purpose" value="evaluates the length of the longest textual record"/>
   <categories href="../../../.Talend.definition#_ccKHERF2Ed2PKb6nEJEvhw"/>
   <sqlGenericExpression xmi:id="_-hzp9JSOEd-TE5ti6XNR2Q" body="SELECT MAX(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
@@ -15,5 +15,4 @@
   <sqlGenericExpression xmi:id="_g_QyUN44EeKxsuCFYGsG9Q" body="SELECT MAX(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
   <sqlGenericExpression xmi:id="_hRg_8N44EeKxsuCFYGsG9Q" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
   <sqlGenericExpression xmi:id="_X0Kox5OzEeOujvooylLxyQ" body="SELECT MAX(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
-  <sqlGenericExpression xmi:id="_-hzp9JSOEd-TE5ti6XNR2R" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
 </dataquality.indicators.definition:IndicatorDefinition>

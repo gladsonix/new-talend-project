@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_4pZ40OLMEeurSp0JLhkNlQ">
+    <contextParameter comment="" name="hadoopDir" prompt="hadoopDir?" promptNeeded="false" type="id_String" value="/user/sliu/fji/demo_cluster_wholesales" xmi:id="_4pZ40eLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="namenode" prompt="namenode?" promptNeeded="false" type="id_String" value="hdfs://talend-cdh-namenode:8020" xmi:id="_4pZ40uLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="resourceManager" prompt="resourceManager?" promptNeeded="false" type="id_String" value="talend-cdh-namenode:8032" xmi:id="_4pZ40-LMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="talend-cdh-namenode" xmi:id="_4pZ41OLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="sliu" xmi:id="_4pZ41eLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="/user/sliu/fji/tmp" xmi:id="_4pZ41uLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="localDir" prompt="localDir?" promptNeeded="false" type="id_String" value="/home/fji/Bureau/demo_cluster_wholesales" xmi:id="_4pZ41-LMEeurSp0JLhkNlQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="lab_cdh5" xmi:id="_4pZ42OLMEeurSp0JLhkNlQ">
+    <contextParameter comment="" name="hadoopDir" prompt="hadoopDir?" promptNeeded="false" type="id_String" value="/user/sliu/fji/demo_cluster_wholesales" xmi:id="_4pZ42eLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="namenode" prompt="namenode?" promptNeeded="false" type="id_String" value="hdfs://talend-cdh-namenode:8020" xmi:id="_4pZ42uLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="resourceManager" prompt="resourceManager?" promptNeeded="false" type="id_String" value="talend-cdh-namenode:8032" xmi:id="_4pZ42-LMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="talend-cdh-namenode" xmi:id="_4pZ43OLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="sliu" xmi:id="_4pZ43eLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="/user/sliu/fji/tmp" xmi:id="_4pZ43uLMEeurSp0JLhkNlQ"/>
+    <contextParameter comment="" name="localDir" prompt="localDir?" promptNeeded="false" type="id_String" value="/home/fji/Bureau/demo_cluster_wholesales" xmi:id="_4pZ43-LMEeurSp0JLhkNlQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a4da644b-9be8-4ba3-9f97-3706965e1b55"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+bg1Z0hljHIUA9jRZ1+RL/mX449E8isaWgfv8wOF1T9jhAC9xs8zKxA3W2Tkhd5ryQuCwvkilxkG
+KZ8JGRUZsw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_12e9469a-4544-4bb0-b864-3e5449313395"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3vW+rqXMg9eqIqap1yaCG+B/3fqTQ0WjjNM7Gow33hsEFE8WLrsIFQFtdeWkkJVfS3pEL9xBnAo9
+R6hrS5eOsg==</DigestValue></Reference></SignedInfo><SignatureValue>egEbYdaeTSgggOALHZYaXfm4IWS/3tXbf32cZ9dE5QNzJWterIusWJafKmFVzMXN89MViH/Ry2L4
+5rzuoCvDR6Wle/+pgfG7L7VlGItF/VmIZdc9W6LOIY79Crp/AkMj8qcRjYwwnl4PXkd32bmLlbw9
+t5mHCxE4xWAPtgOsiSwMwBzHF/vWOdXow28tEXR3TL3KHEZiDTPXc+I2op2t8fW4jsZBXeMhS+tF
+9HihpDnpJKnbnH0DBRYqKmbsSVNlKgg67AyQPD1VZHtpcaXh1wLOZxdforti1AiXLJLjVbmUucSt
+Jqqq4c93wMjm2gGlxw+SALMVav7dj0C7lEGS9A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_12e9469a-4544-4bb0-b864-3e5449313395" Target="#_a4da644b-9be8-4ba3-9f97-3706965e1b55"><Timestamp>2021-07-12 04:51:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
